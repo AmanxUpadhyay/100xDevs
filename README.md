@@ -21,3 +21,5 @@ This repository serves as the central hub for all the resources, projects, and c
 Whether you're aspiring to become a full-stack developer, enhance your skills, or embark on a web development journey, the 100xDev MERN Cohort is your gateway to mastering the MERN stack and building impactful web applications.
 
 Join us and let's code, collaborate, and create together! 🌐👩‍💻👨‍💻
+
+AmanxUpadhyay
