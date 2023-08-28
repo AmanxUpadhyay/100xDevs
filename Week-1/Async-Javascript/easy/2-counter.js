@@ -1,14 +1,16 @@
 /*
-TODO: Function: Without using setInterval,try to code a counter in javascript that goes up as time goes by in intervals of 1 second.
+TODO: Without using setInterval, try to code a counter in Javascript.
 */
 
-function counter(n) {
-  let counter = n;
-  setTimeout(() => {
-    console.log(counter);
-    counter += 1;
-    counter(counter);
-  }, 1000);
+function counter() {
+  let count = 0;
+  function increment() {
+    count++;
+    console.log(count);
+    setTimeout(increment, 1000);
+  }
+
+  increment();
 }
 
-const result = counter(1);
+counter();
