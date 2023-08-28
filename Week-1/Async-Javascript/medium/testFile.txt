@@ -1,0 +1,6 @@
+Before Cleaning the File: 
+hello     world    my    name   is       Amanx
+
+
+After Cleaning the File: 
+hello world my name is Amanx
